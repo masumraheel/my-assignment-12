@@ -1,12 +1,14 @@
 import './App.css'
+import AboutUs from './Componants/AboutUs/AboutUs'
+import Home from './Componants/Home/Home'
 
 function App() {
   
 
   return (
     <>
-     
-      <h1>This is Travel Master</h1>
+      <Home></Home>
+      <AboutUs></AboutUs>
       
     </>
   )
