@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.my-heading{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: xx-large;
+    color: rgb(20, 85, 42);
+  }
+  .my-work {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-size:medium;
+  }
