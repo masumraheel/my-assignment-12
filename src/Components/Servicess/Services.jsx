@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import OverView from "./OverView";
+import Team from "../../Pages/Guides/Team";
 
 const Services = () => {
     const [tabIndex, setTabIndex] = useState(0);
@@ -30,7 +31,7 @@ const Services = () => {
           </TabList>
           <TabPanel><OverView></OverView></TabPanel>
           <TabPanel></TabPanel>
-          <TabPanel></TabPanel>
+          <TabPanel><Team></Team></TabPanel>
         </Tabs>
       </div>
     </div>
