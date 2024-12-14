@@ -32,6 +32,11 @@ const NavBar = () => {
           </ul>
         </details>
       </li>
+      <li>
+        <NavLink to="allTours" className="hover:text-red-400">
+          All Tours
+        </NavLink>
+      </li>
     </>
   );
   return (
