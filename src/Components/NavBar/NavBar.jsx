@@ -17,17 +17,17 @@ const NavBar = () => {
       <li>
         <details>
           <summary>More</summary>
-          <ul className="p-2 bg-transparent text-black">
+          <ul className="bg-transparent text-red-700">
             <li>
-              <NavLink to="community" className="hover:text-red-400">
+              <NavLink to="community">
                 Community
               </NavLink>
             </li>
             <li>
-              <NavLink to="blogs" className="hover:text-red-400">Blogs</NavLink>
+              <NavLink to="blogs">Blogs</NavLink>
             </li>
             <li>
-              <NavLink to="contactUs" className="hover:text-red-400">Contact Us</NavLink>
+              <NavLink to="contactUs">Contact Us</NavLink>
             </li>
           </ul>
         </details>
@@ -41,10 +41,11 @@ const NavBar = () => {
   );
   return (
     <>
-      <div className="navbar bg-slate-100 opacity-80 max-w-screen-xl mx-auto lg:text-black font-semibold">
+      <div className="navbar bg-base-100  bg-opacity-30 fixed z-10
+       max-w-screen-xl mx-auto text-red-700 font-semibold">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="lg:hidden">
+            <div tabIndex={0} className="lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -62,7 +63,8 @@ const NavBar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow-md"
+              className="menu menu-sm dropdown-content 
+              rounded-box z-[1] mt-3 w-52 p-2 shadow-md text-red-700"
             >
               {navOptions}
             </ul>

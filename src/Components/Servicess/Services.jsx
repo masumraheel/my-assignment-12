@@ -7,7 +7,7 @@ import Team from "../../Pages/Guides/Team";
 const Services = () => {
     const [tabIndex, setTabIndex] = useState(0);
   return (
-    <div>
+    <div className="max-w-screen-xl mx-auto p-4">
       <div>
         <h2 className="text-center my-heading">
           Our Services & Our Local Guides

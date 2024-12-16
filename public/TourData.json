@@ -3,6 +3,7 @@
         "id": 1,
         "name": "Cox's Bazar Sea Beach",
         "category": "Beach",
+        "type": "Beach",
         "location": "Cox's Bazar, Chattogram Division",
         "description": "The longest sea beach in the world, stretching over 120 km, known for its natural beauty and serene environment.",
         "img": "https://example.com/images/coxs-bazar.jpg"
@@ -11,6 +12,7 @@
         "id": 2,
         "name": "Sundarbans Mangrove Forest",
         "category": "Forest",
+        "type": "Wildlife",
         "location": "Khulna Division",
         "description": "A UNESCO World Heritage Site, home to the Royal Bengal Tiger and one of the largest mangrove forests in the world.",
         "img": "https://example.com/images/sundarbans.jpg"
@@ -19,6 +21,7 @@
         "id": 3,
         "name": "Bandarban Hill Tracts",
         "category": "Hill",
+        "type": "Adventure",
         "location": "Bandarban, Chattogram Division",
         "description": "A picturesque area with rolling hills, waterfalls, and tribal villages offering a serene getaway.",
         "img": "https://example.com/images/bandarban.jpg"
@@ -27,6 +30,7 @@
         "id": 4,
         "name": "Saint Martin's Island",
         "category": "Island",
+        "type": "Beach",
         "location": "Teknaf, Cox's Bazar",
         "description": "A tropical coral island with clear blue waters, palm-fringed beaches, and vibrant marine life.",
         "img": "https://example.com/images/saint-martin.jpg"
@@ -35,6 +39,7 @@
         "id": 5,
         "name": "Srimangal Tea Garden",
         "category": "Tea Garden",
+        "type": "Family",
         "location": "Moulvibazar, Sylhet Division",
         "description": "Known as the 'Tea Capital of Bangladesh,' offering lush green tea estates and tranquil surroundings.",
         "img": "https://example.com/images/srimangal-tea.jpg"
@@ -43,6 +48,7 @@
         "id": 6,
         "name": "Ahsan Manzil",
         "category": "Historical Site",
+        "type": "Cultural",
         "location": "Dhaka",
         "description": "An iconic pink palace that was once the residence of the Nawabs of Dhaka, now a museum.",
         "img": "https://example.com/images/ahsan-manzil.jpg"
@@ -51,6 +57,7 @@
         "id": 7,
         "name": "Lalbagh Fort",
         "category": "Historical Site",
+        "type": "Cultural",
         "location": "Old Dhaka, Dhaka",
         "description": "An incomplete 17th-century Mughal fort known for its historic significance and architecture.",
         "img": "https://example.com/images/lalbagh-fort.jpg"
@@ -59,6 +66,7 @@
         "id": 8,
         "name": "Kuakata Sea Beach",
         "category": "Beach",
+        "type": "Beach",
         "location": "Kuakata, Barisal Division",
         "description": "Known as the 'Daughter of the Sea,' offering both sunrise and sunset views over the Bay of Bengal.",
         "img": "https://example.com/images/kuakata.jpg"
@@ -67,6 +75,7 @@
         "id": 9,
         "name": "Rangamati Hanging Bridge",
         "category": "Bridge",
+        "type": "Adventure",
         "location": "Rangamati, Chattogram Division",
         "description": "A popular tourist attraction over Kaptai Lake offering stunning views of the surrounding hills and water.",
         "img": "https://example.com/images/rangamati-bridge.jpg"
@@ -75,6 +84,7 @@
         "id": 10,
         "name": "Paharpur Buddhist Monastery",
         "category": "Archaeological Site",
+        "type": "Cultural",
         "location": "Naogaon, Rajshahi Division",
         "description": "A UNESCO World Heritage Site and one of the largest Buddhist monasteries in South Asia.",
         "img": "https://example.com/images/paharpur.jpg"
@@ -83,6 +93,7 @@
         "id": 11,
         "name": "Jaflong",
         "category": "Natural Beauty",
+        "type": "Family",
         "location": "Sylhet Division",
         "description": "Known for its scenic beauty, stone collection points, and the view of the Meghalaya hills across the border.",
         "img": "https://example.com/images/jaflong.jpg"
@@ -91,6 +102,7 @@
         "id": 12,
         "name": "Ratargul Swamp Forest",
         "category": "Forest",
+        "type": "Wildlife",
         "location": "Sylhet Division",
         "description": "A freshwater swamp forest and a unique natural ecosystem, offering boat rides through submerged trees.",
         "img": "https://example.com/images/ratargul.jpg"
@@ -99,6 +111,7 @@
         "id": 13,
         "name": "Boga Lake",
         "category": "Lake",
+        "type": "Adventure",
         "location": "Bandarban, Chattogram Division",
         "description": "A pristine high-altitude lake surrounded by lush green hills, popular for trekking and camping.",
         "img": "https://example.com/images/boga-lake.jpg"
@@ -107,6 +120,7 @@
         "id": 14,
         "name": "Madhabkunda Waterfall",
         "category": "Waterfall",
+        "type": "Family",
         "location": "Moulvibazar, Sylhet Division",
         "description": "The largest waterfall in Bangladesh, nestled within lush greenery, attracting nature lovers and hikers.",
         "img": "https://example.com/images/madhabkunda.jpg"
@@ -115,6 +129,7 @@
         "id": 15,
         "name": "Foy's Lake",
         "category": "Lake",
+        "type": "Family",
         "location": "Chattogram City",
         "description": "A man-made lake offering recreational activities, including boat rides and an amusement park.",
         "img": "https://example.com/images/foys-lake.jpg"
@@ -123,6 +138,7 @@
         "id": 16,
         "name": "Sonargaon",
         "category": "Historical Site",
+        "type": "Cultural",
         "location": "Narayanganj, Dhaka Division",
         "description": "The ancient capital of Bengal, rich in history, with attractions like Panam City and the Folk Art Museum.",
         "img": "https://example.com/images/sonargaon.jpg"
@@ -131,6 +147,7 @@
         "id": 17,
         "name": "Tanguar Haor",
         "category": "Wetland",
+        "type": "Wildlife",
         "location": "Sunamganj, Sylhet Division",
         "description": "A large wetland known for its biodiversity, migratory birds, and mesmerizing beauty during the rainy season.",
         "img": "https://example.com/images/tanguar-haor.jpg"
@@ -139,6 +156,7 @@
         "id": 18,
         "name": "Nilgiri Hills",
         "category": "Hill",
+        "type": "Luxury",
         "location": "Bandarban, Chattogram Division",
         "description": "One of the highest peaks in Bangladesh, offering breathtaking views of clouds, hills, and sunrise.",
         "img": "https://example.com/images/nilgiri.jpg"
@@ -147,6 +165,7 @@
         "id": 19,
         "name": "Mahasthangarh",
         "category": "Archaeological Site",
+        "type": "Cultural",
         "location": "Bogra, Rajshahi Division",
         "description": "The oldest archaeological site in Bangladesh, dating back to 3rd century BC, rich in history and artifacts.",
         "img": "https://example.com/images/mahasthangarh.jpg"
@@ -155,6 +174,7 @@
         "id": 20,
         "name": "Shaat Gombuj Mosque",
         "category": "Religious Site",
+        "type": "Cultural",
         "location": "Bagerhat, Khulna Division",
         "description": "A UNESCO World Heritage Site, famous for its impressive 60-domed structure and historical significance.",
         "img": "https://example.com/images/shaat-gombuj.jpg"

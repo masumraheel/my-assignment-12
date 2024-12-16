@@ -1,0 +1,33 @@
+[
+    {
+      "_id": "1",
+      "type_name": "Adventure",
+      "icon": "FaHiking"
+    },
+    {
+      "_id": "2",
+      "type_name": "Cultural",
+      "icon": "FaMosque"
+    },
+    {
+      "_id": "3",
+      "type_name": "Wildlife",
+      "icon": "FaTree"
+    },
+    {
+      "_id": "4",
+      "type_name": "Luxury",
+      "icon": "FaCrown"
+    },
+    {
+      "_id": "5",
+      "type_name": "Beach",
+      "icon": "FaUmbrellaBeach"
+    },
+    {
+      "_id": "6",
+      "type_name": "Family",
+      "icon": "FaChild"
+    }
+  ]
+  

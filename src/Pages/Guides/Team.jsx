@@ -9,7 +9,7 @@ const Team = () => {
       .then((data) => setTeam(data));
   }, []);
   return (
-    <div className="">
+    <div className="max-w-screen-xl mx-auto">
       <div>
         <h2 className="my-heading text-center">Meet your local guides</h2>
       </div>
