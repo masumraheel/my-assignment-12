@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "reviewer_name": "Tanvir Ahmed",
+        "rating": 5,
+        "comment": "Cox's Bazar is absolutely stunning! The beach is clean, and the views are mesmerizing. A must-visit!",
+        "reviewer_image": "https://example.com/images/tanvir_ahmed.jpg"
+    },
+    {
+        "id": 2,
+        "reviewer_name": "Nusrat Jahan",
+        "rating": 4,
+        "comment": "The Sundarbans are magical! The boat ride was serene, and the wildlife was amazing. Highly recommended.",
+        "reviewer_image": "https://example.com/images/nusrat_jahan.jpg"
+    },
+    {
+        "id": 3,
+        "reviewer_name": "Samiul Islam",
+        "rating": 5,
+        "comment": "Bandarban Hill Tracts are perfect for adventure lovers. Trekking was challenging but worth every moment.",
+        "reviewer_image": "https://example.com/images/samiul_islam.jpg"
+    },
+    {
+        "id": 4,
+        "reviewer_name": "Mouly Hossain",
+        "rating": 4,
+        "comment": "Saint Martin's Island is paradise on earth. The coral reefs are breathtaking, but it gets crowded during peak season.",
+        "reviewer_image": "https://example.com/images/mouly_hossain.jpg"
+    },
+    {
+        "id": 5,
+        "reviewer_name": "Rafi Khan",
+        "rating": 3,
+        "comment": "Srimangal Tea Gardens are peaceful, but there isn’t much else to do. Great for a short trip.",
+        "reviewer_image": "https://example.com/images/rafi_khan.jpg"
+    },
+    {
+        "id": 6,
+        "reviewer_name": "Farzana Akter",
+        "rating": 5,
+        "comment": "Ahsan Manzil is a treasure trove of history. The museum is well-maintained and worth the visit.",
+        "reviewer_image": "https://example.com/images/farzana_akter.jpg"
+    },
+    {
+        "id": 7,
+        "reviewer_name": "Mahin Chowdhury",
+        "rating": 4,
+        "comment": "Lalbagh Fort is fascinating. It’s a great spot for history enthusiasts, though it can get crowded.",
+        "reviewer_image": "https://example.com/images/mahin_chowdhury.jpg"
+    },
+    {
+        "id": 8,
+        "reviewer_name": "Shirin Rahman",
+        "rating": 5,
+        "comment": "Kuakata is serene and less crowded than Cox's Bazar. Watching both sunrise and sunset is unforgettable.",
+        "reviewer_image": "https://example.com/images/shirin_rahman.jpg"
+    },
+    {
+        "id": 9,
+        "reviewer_name": "Imran Hossain",
+        "rating": 4,
+        "comment": "The hanging bridge in Rangamati is a fun experience, and the view of Kaptai Lake is beautiful. Worth a visit!",
+        "reviewer_image": "https://example.com/images/imran_hossain.jpg"
+    }
+]
