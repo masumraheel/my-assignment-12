@@ -6,7 +6,8 @@
         "type": "Beach",
         "location": "Cox's Bazar, Chattogram Division",
         "description": "The longest sea beach in the world, stretching over 120 km, known for its natural beauty and serene environment.",
-        "img": "https://example.com/images/coxs-bazar.jpg"
+        "img": "https://i.ibb.co.com/kMxGKfr/img1.png",
+        "price": "7000 BDT"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "type": "Wildlife",
         "location": "Khulna Division",
         "description": "A UNESCO World Heritage Site, home to the Royal Bengal Tiger and one of the largest mangrove forests in the world.",
-        "img": "https://example.com/images/sundarbans.jpg"
+        "img": "https://i.ibb.co.com/dKqj9dG/img2.jpg",
+        "price": "8500 BDT"
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "type": "Adventure",
         "location": "Bandarban, Chattogram Division",
         "description": "A picturesque area with rolling hills, waterfalls, and tribal villages offering a serene getaway.",
-        "img": "https://example.com/images/bandarban.jpg"
+        "img": "https://i.ibb.co.com/DLGNTZf/img3.jpg",
+        "price": "7500 BDT"
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "type": "Beach",
         "location": "Teknaf, Cox's Bazar",
         "description": "A tropical coral island with clear blue waters, palm-fringed beaches, and vibrant marine life.",
-        "img": "https://example.com/images/saint-martin.jpg"
+        "img": "https://i.ibb.co.com/K0TLCDt/img4.jpg",
+        "price": "8700 BDT"
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "type": "Family",
         "location": "Moulvibazar, Sylhet Division",
         "description": "Known as the 'Tea Capital of Bangladesh,' offering lush green tea estates and tranquil surroundings.",
-        "img": "https://example.com/images/srimangal-tea.jpg"
+        "img": "https://i.ibb.co.com/BPY9tpC/img5.jpg",
+        "price": "7800 BDT"
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
         "type": "Cultural",
         "location": "Dhaka",
         "description": "An iconic pink palace that was once the residence of the Nawabs of Dhaka, now a museum.",
-        "img": "https://example.com/images/ahsan-manzil.jpg"
+        "img": "https://i.ibb.co.com/dLGhJrz/img6.jpg",
+        "price": "3600 BDT"
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@
         "type": "Cultural",
         "location": "Old Dhaka, Dhaka",
         "description": "An incomplete 17th-century Mughal fort known for its historic significance and architecture.",
-        "img": "https://example.com/images/lalbagh-fort.jpg"
+        "img": "https://i.ibb.co.com/hM14cJq/img7.jpg",
+        "price": "2000 BDT"
     },
     {
         "id": 8,
@@ -69,7 +76,8 @@
         "type": "Beach",
         "location": "Kuakata, Barisal Division",
         "description": "Known as the 'Daughter of the Sea,' offering both sunrise and sunset views over the Bay of Bengal.",
-        "img": "https://example.com/images/kuakata.jpg"
+        "img": "https://i.ibb.co.com/k6WXpX9/img8.jpg",
+        "price": "5000 BDT"
     },
     {
         "id": 9,
@@ -78,7 +86,8 @@
         "type": "Adventure",
         "location": "Rangamati, Chattogram Division",
         "description": "A popular tourist attraction over Kaptai Lake offering stunning views of the surrounding hills and water.",
-        "img": "https://example.com/images/rangamati-bridge.jpg"
+        "img": "https://i.ibb.co.com/n14zw6W/img9.jpg",
+        "price": "5500 BDT"
     },
     {
         "id": 10,
@@ -87,7 +96,8 @@
         "type": "Cultural",
         "location": "Naogaon, Rajshahi Division",
         "description": "A UNESCO World Heritage Site and one of the largest Buddhist monasteries in South Asia.",
-        "img": "https://example.com/images/paharpur.jpg"
+        "img": "https://i.ibb.co.com/zrhdV3c/img10.jpg",
+        "price": "9000 BDT"
     },
     {
         "id": 11,
@@ -96,7 +106,8 @@
         "type": "Family",
         "location": "Sylhet Division",
         "description": "Known for its scenic beauty, stone collection points, and the view of the Meghalaya hills across the border.",
-        "img": "https://example.com/images/jaflong.jpg"
+        "img": "https://i.ibb.co.com/R6QTt9Q/img11.jpg",
+        "price": "18000 BDT"
     },
     {
         "id": 12,
@@ -105,7 +116,8 @@
         "type": "Wildlife",
         "location": "Sylhet Division",
         "description": "A freshwater swamp forest and a unique natural ecosystem, offering boat rides through submerged trees.",
-        "img": "https://example.com/images/ratargul.jpg"
+        "img": "https://i.ibb.co.com/80Q0nzq/img12.jpg",
+        "price": "7800 BDT"
     },
     {
         "id": 13,
@@ -114,7 +126,8 @@
         "type": "Adventure",
         "location": "Bandarban, Chattogram Division",
         "description": "A pristine high-altitude lake surrounded by lush green hills, popular for trekking and camping.",
-        "img": "https://example.com/images/boga-lake.jpg"
+        "img": "https://i.ibb.co.com/7VDBb3S/img13.jpg",
+        "price": "8200 BDT"
     },
     {
         "id": 14,
@@ -123,7 +136,8 @@
         "type": "Family",
         "location": "Moulvibazar, Sylhet Division",
         "description": "The largest waterfall in Bangladesh, nestled within lush greenery, attracting nature lovers and hikers.",
-        "img": "https://example.com/images/madhabkunda.jpg"
+        "img": "https://i.ibb.co.com/TWNvCSs/img14.jpg",
+        "price": "17700 BDT"
     },
     {
         "id": 15,
@@ -132,7 +146,8 @@
         "type": "Family",
         "location": "Chattogram City",
         "description": "A man-made lake offering recreational activities, including boat rides and an amusement park.",
-        "img": "https://example.com/images/foys-lake.jpg"
+        "img": "https://i.ibb.co.com/cxTqVGV/img15.jpg",
+        "price": "25000 BDT"
     },
     {
         "id": 16,
@@ -141,7 +156,8 @@
         "type": "Cultural",
         "location": "Narayanganj, Dhaka Division",
         "description": "The ancient capital of Bengal, rich in history, with attractions like Panam City and the Folk Art Museum.",
-        "img": "https://example.com/images/sonargaon.jpg"
+        "img": "https://i.ibb.co.com/y8bSxX9/img16.gif",
+        "price": "15000 BDT"
     },
     {
         "id": 17,
@@ -150,7 +166,8 @@
         "type": "Wildlife",
         "location": "Sunamganj, Sylhet Division",
         "description": "A large wetland known for its biodiversity, migratory birds, and mesmerizing beauty during the rainy season.",
-        "img": "https://example.com/images/tanguar-haor.jpg"
+        "img": "https://i.ibb.co.com/pWk2fZC/img17.png",
+        "price": "7000 BDT"
     },
     {
         "id": 18,
@@ -159,7 +176,8 @@
         "type": "Luxury",
         "location": "Bandarban, Chattogram Division",
         "description": "One of the highest peaks in Bangladesh, offering breathtaking views of clouds, hills, and sunrise.",
-        "img": "https://example.com/images/nilgiri.jpg"
+        "img": "https://i.ibb.co.com/JRvMKDp/img18.jpg",
+        "price": "27000 BDT"
     },
     {
         "id": 19,
@@ -168,7 +186,8 @@
         "type": "Cultural",
         "location": "Bogra, Rajshahi Division",
         "description": "The oldest archaeological site in Bangladesh, dating back to 3rd century BC, rich in history and artifacts.",
-        "img": "https://example.com/images/mahasthangarh.jpg"
+        "img": "https://i.ibb.co.com/fHpt6v4/img19.jpg",
+        "price": "13000 BDT"
     },
     {
         "id": 20,
@@ -177,6 +196,7 @@
         "type": "Cultural",
         "location": "Bagerhat, Khulna Division",
         "description": "A UNESCO World Heritage Site, famous for its impressive 60-domed structure and historical significance.",
-        "img": "https://example.com/images/shaat-gombuj.jpg"
+        "img": "https://i.ibb.co.com/16vdZss/img20.jpg",
+        "price": "6700 BDT"
     }
 ]

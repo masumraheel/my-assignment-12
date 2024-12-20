@@ -3,6 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import OverView from "./OverView";
 import Team from "../../Pages/Guides/Team";
+import PopularPackage from "../../Pages/OurPackage/PopularPackage";
 
 const Services = () => {
     const [tabIndex, setTabIndex] = useState(0);
@@ -30,7 +31,7 @@ const Services = () => {
             <Tab>Our Experienced Guide</Tab>
           </TabList>
           <TabPanel><OverView></OverView></TabPanel>
-          <TabPanel></TabPanel>
+          <TabPanel><PopularPackage></PopularPackage></TabPanel>
           <TabPanel><Team></Team></TabPanel>
         </Tabs>
       </div>
