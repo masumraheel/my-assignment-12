@@ -3,7 +3,7 @@ import React from "react";
 const TeamMembers = ({ members }) => {
   const { name, email, photo } = members;
   return (
-    <div className="bg-indigo-100 rounded-sm">
+    <div className="bg-indigo-50 rounded-sm">
       <div className="flex flex-col justify-center p-4 shadow-sm rounded-sm sm:px-10 dark:bg-gray-50">
         <img
           src={photo}
