@@ -5,19 +5,19 @@ const NavBar = () => {
   const navOptions = (
     <>
       <li>
-        <NavLink to="/" className="hover:text-red-400">
+        <NavLink to="/" className="lg:hover:text-red-400">
           Home
         </NavLink>
       </li>
       <li>
-        <NavLink to="aboutUs" className="hover:text-red-400">
+        <NavLink to="aboutUs" className="lg:hover:text-red-400">
           About Us
         </NavLink>
       </li>
       <li>
         <details>
           <summary>More</summary>
-          <ul className="bg-transparent text-red-700">
+          <ul className="bg-transparent lg:text-red-700">
             <li>
               <NavLink to="community">
                 Community
@@ -33,7 +33,7 @@ const NavBar = () => {
         </details>
       </li>
       <li>
-        <NavLink to="allTours" className="hover:text-red-400">
+        <NavLink to="allTours" className="lg:hover:text-red-400">
           All Tours
         </NavLink>
       </li>
@@ -41,8 +41,8 @@ const NavBar = () => {
   );
   return (
     <>
-      <div className="navbar bg-base-100  bg-opacity-30 fixed z-10
-       max-w-screen-xl mx-auto text-red-700 font-semibold">
+      <div className="navbar lg:bg-base-100 lg:bg-opacity-30 fixed z-10
+       max-w-screen-xl mx-auto lg:text-red-700 font-semibold">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} className="lg:hidden">
