@@ -3,63 +3,63 @@
         "id": 1,
         "name": "Tanvir Ahmed",
         "rating": 5,
-        "comment": "Cox's Bazar is absolutely stunning! The beach is clean, and the views are mesmerizing. A must-visit!",
-        "image": "https://example.com/images/tanvir_ahmed.jpg"
+        "comment": "Our guide’s storytelling in Cox's Bazar, from pirate tales to hidden treasures, made the trip unforgettable. His sunset recommendations were absolutely breathtaking.",
+        "img": "https://example.com/images/tanvir_ahmed.jpg"
     },
     {
         "id": 2,
         "name": "Nusrat Jahan",
         "rating": 4,
-        "comment": "The Sundarbans are magical! The boat ride was serene, and the wildlife was amazing. Highly recommended.",
-        "image": "https://example.com/images/nusrat_jahan.jpg"
+        "comment": "Spotting tiger footprints in the Sundarbans was thrilling. The guide’s deep knowledge of wildlife and safety tips made the entire forest experience truly remarkable.",
+        "img": "https://example.com/images/nusrat_jahan.jpg"
     },
     {
         "id": 3,
         "name": "Samiul Islam",
         "rating": 5,
-        "comment": "Bandarban Hill Tracts are perfect for adventure lovers. Trekking was challenging but worth every moment.",
-        "image": "https://example.com/images/samiul_islam.jpg"
+        "comment": "Our Bandarban guide ensured a great experience, even after my ankle injury. His care, stories, and encouragement helped me enjoy the trek’s beauty.",
+        "img": "https://example.com/images/samiul_islam.jpg"
     },
     {
         "id": 4,
         "name": "Mouly Hossain",
         "rating": 4,
-        "comment": "Saint Martin's Island is paradise on earth. The coral reefs are breathtaking, but it gets crowded during peak season.",
-        "image": "https://example.com/images/mouly_hossain.jpg"
+        "comment": "The Saint Martin’s Island bonfire organized by our guide was magical. Singing, storytelling, and delicious seafood created a unique and unforgettable beach experience.",
+        "img": "https://example.com/images/mouly_hossain.jpg"
     },
     {
         "id": 5,
         "name": "Rafi Khan",
         "rating": 3,
-        "comment": "Srimangal Tea Gardens are peaceful, but there isn’t much else to do. Great for a short trip.",
-        "image": "https://example.com/images/rafi_khan.jpg"
+        "comment": "Our Srimangal guide’s tea-picking demonstration was insightful. However, limited time for photography in the scenic plantation surroundings left us wanting a more relaxed experience.",
+        "img": "https://example.com/images/rafi_khan.jpg"
     },
     {
         "id": 6,
         "name": "Farzana Akter",
         "rating": 5,
-        "comment": "Ahsan Manzil is a treasure trove of history. The museum is well-maintained and worth the visit.",
-        "image": "https://example.com/images/farzana_akter.jpg"
+        "comment": "Ahsan Manzil came alive through our guide’s storytelling. His vivid descriptions of Mughal history and architecture turned a simple tour into an inspiring experience.",
+        "img": "https://example.com/images/farzana_akter.jpg"
     },
     {
         "id": 7,
         "name": "Mahin Chowdhury",
         "rating": 4,
-        "comment": "Lalbagh Fort is fascinating. It’s a great spot for history enthusiasts, though it can get crowded.",
-        "image": "https://example.com/images/mahin_chowdhury.jpg"
+        "comment": "Our Lalbagh Fort guide’s historical anecdotes were fascinating. His knowledge of Mughal traditions and suggestions for nearby cuisine made the tour educational.",
+        "img": "https://example.com/images/mahin_chowdhury.jpg"
     },
     {
         "id": 8,
         "name": "Shirin Rahman",
         "rating": 5,
-        "comment": "Kuakata is serene and less crowded than Cox's Bazar. Watching both sunrise and sunset is unforgettable.",
-        "image": "https://example.com/images/shirin_rahman.jpg"
+        "comment": "The Kuakata sunrise was magical, thanks to our guide’s perfect timing advice. Peaceful beaches and cultural stories made this trip an unforgettable experience.",
+        "img": "https://example.com/images/shirin_rahman.jpg"
     },
     {
         "id": 9,
         "name": "Imran Hossain",
         "rating": 4,
-        "comment": "The hanging bridge in Rangamati is a fun experience, and the view of Kaptai Lake is beautiful. Worth a visit!",
-        "image": "https://example.com/images/imran_hossain.jpg"
+        "comment": "In Rangamati, our guide’s Chakma traditions knowledge and boat ride arrangements made the trip both educational and relaxing. The serene lake views were unforgettable.",
+        "img": "https://example.com/images/imran_hossain.jpg"
     }
 ]

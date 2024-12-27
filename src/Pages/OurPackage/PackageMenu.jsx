@@ -12,7 +12,7 @@ const PackageMenu = ({ tour }) => {
           <h2 className="card-title">{name}</h2>
           <p>Price: {price}</p>
           <p>Type: {type}</p>
-          <button className="btn btn-outline border-b-4 mt-2 mb-2
+          <button className="btn btn-outline border-0 border-b-4 mt-2 mb-2
            hover:bg-gradient-to-r from-red-400 via-yellow-300 to-emerald-400">View Package</button>
         </div>
       </div>
