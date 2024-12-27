@@ -47,11 +47,11 @@ const Stories = () => {
             clickable: true,
           }}
           modules={[Keyboard, Scrollbar, Navigation, Pagination]}
-          className="mySwiper bg-slate-200 p-4 max-w-screen-xl mx-auto"
+          className="mySwiper bg-pink-100 p-4 max-w-screen-xl mx-auto mt-4"
         >
           {reviews.map((review) => (
             <SwiperSlide key={review._id}>
-              <div className="card bg-slate-200 w-96 h-[450px]">
+              <div className="card bg-pink-100 w-96 h-[450px]">
                 <div className="avatar flex flex-col items-center mt-4">
                   <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
                     <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
