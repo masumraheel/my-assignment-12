@@ -1,14 +1,12 @@
 import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/scrollbar";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Keyboard, Scrollbar, Navigation, Pagination } from "swiper/modules";
-
 import { ImFacebook } from "react-icons/im";
+import { FcRating } from "react-icons/fc";
 
 const Stories = () => {
   const [reviews, setReviews] = useState([]);
@@ -47,23 +45,21 @@ const Stories = () => {
             clickable: true,
           }}
           modules={[Keyboard, Scrollbar, Navigation, Pagination]}
-          className="mySwiper"
+          className="mySwiper bg-base-100 p-4"
         >
           {reviews.map((review) => (
             <SwiperSlide key={review._id}>
               <div className="card bg-base-100 w-96 shadow-xl">
-                <figure className="px-10 pt-10">
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                    alt="Shoes"
-                    className="rounded-xl"
-                  />
-                </figure>
+                <div className="avatar flex flex-col items-center mt-4">
+                  <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                    <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                  </div>
+                </div>
                 <div className="card-body items-center text-center">
-                  <h2 className="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <h2 className="card-title">{review.name}</h2>
+                  <p>{review.comment}</p>
                   <div className="card-actions">
-                    <button className="btn btn-primary">Buy Now</button>
+                    <ImFacebook className="text-4xl text-blue-800" />
                   </div>
                 </div>
               </div>
