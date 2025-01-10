@@ -23,12 +23,14 @@ const Types = ({ place }) => {
   const Palace = icons[icon];
   return (
     <div className="card bg-red-100 md:w-44 shadow-lg">
-      <div className="card-body flex justify-center items-center 
-      bg-gradient-to-r from-pink-500 via-red-300 to-yellow-300
-     hover:text-white cursor-pointer rounded-lg">
-        <h2 className="card-title text-4xl">
+      <div
+        className="card-body flex justify-center items-center 
+      bg-gradient-to-r from-teal-300 via-red-300 to-yellow-300
+     hover:text-white cursor-pointer rounded-lg"
+      >
+        <button className="card-title text-4xl">
           <Palace />
-        </h2>
+        </button>
         <h2 className="card-title">{type_name}</h2>
       </div>
     </div>
