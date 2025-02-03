@@ -26,11 +26,11 @@ const Types = ({ place }) => {
       <div
         className="card-body flex justify-center items-center 
       bg-gradient-to-r from-teal-300 via-red-300 to-yellow-300
-     hover:text-white cursor-pointer rounded-lg"
+     hover:text-white rounded-lg"
       >
-        <button className="card-title text-4xl">
+        <div onClick={()=>console.log(type_name)} className="card-title text-4xl cursor-pointer">
           <Palace />
-        </button>
+        </div>
         <h2 className="card-title">{type_name}</h2>
       </div>
     </div>
