@@ -41,7 +41,7 @@ const NavBar = () => {
   );
   return (
     <>
-      <div className="navbar lg:bg-base-100 lg:bg-opacity-30 fixed z-10
+      <div className="navbar lg:bg-base-100 lg:bg-opacity-40 fixed z-10
        max-w-screen-xl mx-auto lg:text-red-700 font-semibold">
         <div className="navbar-start">
           <div className="dropdown">
