@@ -8,6 +8,7 @@ import {
   FaUmbrellaBeach,
   FaChild,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const icons = {
   FaHiking,
   FaMosque,
@@ -28,9 +29,15 @@ const Types = ({ place }) => {
       bg-gradient-to-r from-teal-300 via-red-300 to-yellow-300
      hover:text-white rounded-lg"
       >
-        <div onClick={()=>console.log(type_name)} className="card-title text-4xl cursor-pointer">
-          <Palace />
-        </div>
+        <Link to="/allTours">
+          <button
+            // onClick={() => console.log(type_name)}
+            className="card-title text-4xl cursor-pointer"
+          >
+            <Palace />
+          </button>
+        </Link>
+
         <h2 className="card-title">{type_name}</h2>
       </div>
     </div>

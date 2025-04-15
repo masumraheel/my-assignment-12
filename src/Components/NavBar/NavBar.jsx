@@ -10,39 +10,38 @@ const NavBar = () => {
         </NavLink>
       </li>
       <li>
+        <NavLink to="allTours" className="lg:hover:text-red-400">
+          All Tours
+        </NavLink>
+      </li>
+      <li>
         <NavLink to="aboutUs" className="lg:hover:text-red-400">
           About Us
         </NavLink>
       </li>
       <li>
-        <details>
-          <summary>More</summary>
-          <ul className="bg-transparent lg:text-red-700">
-            <li>
-              <NavLink to="community">
-                Community
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="blogs">Blogs</NavLink>
-            </li>
-            <li>
-              <NavLink to="contactUs">Contact Us</NavLink>
-            </li>
-          </ul>
-        </details>
+        <NavLink to="community" className="lg:hover:text-red-400">
+          Community
+        </NavLink>
       </li>
       <li>
-        <NavLink to="allTours" className="lg:hover:text-red-400">
-          All Tours
+        <NavLink to="blogs" className="lg:hover:text-red-400">
+          Blogs
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="contactUs" className="lg:hover:text-red-400">
+          Contact Us
         </NavLink>
       </li>
     </>
   );
   return (
     <>
-      <div className="navbar lg:bg-base-100 lg:bg-opacity-40 fixed z-10
-       max-w-screen-xl mx-auto lg:text-red-700 font-semibold">
+      <div
+        className="navbar lg:bg-base-100 lg:bg-opacity-40 fixed z-10
+       max-w-screen-xl mx-auto lg:text-red-700 font-semibold"
+      >
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} className="lg:hidden">
@@ -71,7 +70,10 @@ const NavBar = () => {
           </div>
           <figure>
             <NavLink to="/">
-              <h3><span className="text-2xl text-rose-700 font-bold">Bongo</span><span className="text-2xl text-cyan-800 font-bold">Tours</span></h3>
+              <h3>
+                <span className="text-2xl text-rose-700 font-bold">Bongo</span>
+                <span className="text-2xl text-cyan-800 font-bold">Tours</span>
+              </h3>
             </NavLink>
           </figure>
         </div>
