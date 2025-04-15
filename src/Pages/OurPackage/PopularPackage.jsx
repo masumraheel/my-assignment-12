@@ -1,20 +1,14 @@
-import React, { useEffect, useState } from "react";
 import PackageMenu from "./PackageMenu";
+import usePackages from "../../hooks/usePackages";
 
 const PopularPackage = () => {
-  const [tourPackage, setPackage] = useState([]);
-  useEffect(() => {
-    fetch("tourData.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const popularTours = data.filter((tour) => tour.type === "Cultural");
-        setPackage(popularTours);
-      });
-  });
+  const [tourPackage] = usePackages();
+  const popularTours = tourPackage.filter((tour) => tour.type === "Cultural");
+
   return (
     <div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {tourPackage.map((tour) => (
+        {popularTours.map((tour) => (
           <PackageMenu key={tour._id} tour={tour}></PackageMenu>
         ))}
       </div>
