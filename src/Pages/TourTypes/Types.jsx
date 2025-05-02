@@ -29,7 +29,7 @@ const Types = ({ place }) => {
       bg-gradient-to-r from-teal-300 via-red-300 to-yellow-300
      hover:text-white rounded-lg"
       >
-        <Link to="/allTours">
+        <Link to="/bookingTrip">
           <button
             // onClick={() => console.log(type_name)}
             className="card-title text-4xl cursor-pointer"

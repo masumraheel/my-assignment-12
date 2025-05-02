@@ -6,6 +6,7 @@ import ContactUs from "../Pages/ContactUs";
 import Blogs from "../Pages/Blogs";
 import Community from "../Pages/Community";
 import AboutUs from "../Pages/AboutUs";
+import BookingTrip from "../BookingTrip/BookingTrip";
 
 
 export const router = createBrowserRouter([
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
             path:"allTours",
             element:<AllTours></AllTours>
         },
+        {
+            path:"bookingTrip",
+            element:<BookingTrip></BookingTrip>
+        }
       ]
     },
   ]);
