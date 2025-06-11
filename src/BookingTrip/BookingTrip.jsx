@@ -5,6 +5,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import usePackages from "../hooks/usePackages";
 import PackageTour from "../Pages/OurPackage/PackageTour";
+import BookingTab from "../BookingTab/BookingTab";
 
 const BookingTrip = () => {
   const [tabIndex, setTabIndex] = useState(0);
@@ -28,46 +29,22 @@ const BookingTrip = () => {
           <Tab>Family</Tab>
         </TabList>
         <TabPanel>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {adventure.map((tour) => (
-              <PackageTour key={tour._id} tour={tour}></PackageTour>
-            ))}
-          </div>
+          <BookingTab items={adventure}></BookingTab>
         </TabPanel>
         <TabPanel>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {cultural.map((tour) => (
-              <PackageTour key={tour._id} tour={tour}></PackageTour>
-            ))}
-          </div>
+          <BookingTab items={cultural}></BookingTab>
         </TabPanel>
         <TabPanel>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {wildLife.map((tour) => (
-              <PackageTour key={tour._id} tour={tour}></PackageTour>
-            ))}
-          </div>
+          <BookingTab items={wildLife}></BookingTab>
         </TabPanel>
         <TabPanel>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {luxury.map((tour) => (
-              <PackageTour key={tour._id} tour={tour}></PackageTour>
-            ))}
-          </div>
+          <BookingTab items={luxury}></BookingTab>
         </TabPanel>
         <TabPanel>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {beach.map((tour) => (
-              <PackageTour key={tour._id} tour={tour}></PackageTour>
-            ))}
-          </div>
+         <BookingTab items={beach}></BookingTab>
         </TabPanel>
         <TabPanel>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {family.map((tour) => (
-              <PackageTour key={tour._id} tour={tour}></PackageTour>
-            ))}
-          </div>
+          <BookingTab items={family}></BookingTab>
         </TabPanel>
       </Tabs>
     </div>
