@@ -1,10 +1,8 @@
-import React, { useState } from "react";
 import Cover from "../Components/Cover/Cover";
 import bookingImage from "../assets/Cover image/booking.jpg";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import usePackages from "../hooks/usePackages";
-import PackageTour from "../Pages/OurPackage/PackageTour";
 import BookingTab from "../BookingTab/BookingTab";
 
 const BookingTrip = () => {
@@ -41,7 +39,7 @@ const BookingTrip = () => {
           <BookingTab items={luxury}></BookingTab>
         </TabPanel>
         <TabPanel>
-         <BookingTab items={beach}></BookingTab>
+          <BookingTab items={beach}></BookingTab>
         </TabPanel>
         <TabPanel>
           <BookingTab items={family}></BookingTab>
