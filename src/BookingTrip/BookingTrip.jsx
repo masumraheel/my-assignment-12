@@ -4,6 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import usePackages from "../hooks/usePackages";
 import BookingTab from "../BookingTab/BookingTab";
+import { useState } from "react";
 
 const BookingTrip = () => {
   const [tabIndex, setTabIndex] = useState(0);
@@ -27,22 +28,22 @@ const BookingTrip = () => {
           <Tab>Family</Tab>
         </TabList>
         <TabPanel>
-          <BookingTab items={adventure}></BookingTab>
+          <BookingTab items={adventure} title={'adventure'}></BookingTab>
         </TabPanel>
         <TabPanel>
-          <BookingTab items={cultural}></BookingTab>
+          <BookingTab items={cultural} title={'cultural'}></BookingTab>
         </TabPanel>
         <TabPanel>
-          <BookingTab items={wildLife}></BookingTab>
+          <BookingTab items={wildLife} title={'wildLife'}></BookingTab>
         </TabPanel>
         <TabPanel>
-          <BookingTab items={luxury}></BookingTab>
+          <BookingTab items={luxury} title={'luxury'}></BookingTab>
         </TabPanel>
         <TabPanel>
-          <BookingTab items={beach}></BookingTab>
+          <BookingTab items={beach} title={'beach'}></BookingTab>
         </TabPanel>
         <TabPanel>
-          <BookingTab items={family}></BookingTab>
+          <BookingTab items={family} title={'family'}></BookingTab>
         </TabPanel>
       </Tabs>
     </div>
