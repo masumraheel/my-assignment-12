@@ -8,16 +8,24 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 
 const BookingTrip = () => {
-  const [tabIndex, setTabIndex] = useState(0);
-  const {type}=useParams();
-  console.log(type);
+  const types = [
+    "Adventure",
+    "Cultural",
+    "Wildlife",
+    "Luxury",
+    "Beach",
+    "Family",
+  ];
+  const { type } = useParams();
+  const initialIndex = types.indexOf(type);
+  const [tabIndex, setTabIndex] = useState(initialIndex);
   const [tourPackage] = usePackages();
   const adventure = tourPackage.filter((tour) => tour.type === "Adventure");
   const cultural = tourPackage.filter((tour) => tour.type === "Cultural");
   const wildLife = tourPackage.filter((tour) => tour.type === "Wildlife");
-  const luxury = tourPackage.filter((tour) => tour.type === "Cultural");
+  const luxury = tourPackage.filter((tour) => tour.type === "Luxury");
   const beach = tourPackage.filter((tour) => tour.type === "Beach");
-  const family = tourPackage.filter((tour) => tour.type === "Cultural");
+  const family = tourPackage.filter((tour) => tour.type === "Family");
   return (
     <div>
       <Cover img={bookingImage}></Cover>
