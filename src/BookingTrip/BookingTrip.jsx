@@ -28,22 +28,22 @@ const BookingTrip = () => {
           <Tab>Family</Tab>
         </TabList>
         <TabPanel>
-          <BookingTab items={adventure} title={'adventure'}></BookingTab>
+          <BookingTab items={adventure}></BookingTab>
         </TabPanel>
         <TabPanel>
-          <BookingTab items={cultural} title={'cultural'}></BookingTab>
+          <BookingTab items={cultural}></BookingTab>
         </TabPanel>
         <TabPanel>
-          <BookingTab items={wildLife} title={'wildLife'}></BookingTab>
+          <BookingTab items={wildLife}></BookingTab>
         </TabPanel>
         <TabPanel>
-          <BookingTab items={luxury} title={'luxury'}></BookingTab>
+          <BookingTab items={luxury}></BookingTab>
         </TabPanel>
         <TabPanel>
-          <BookingTab items={beach} title={'beach'}></BookingTab>
+          <BookingTab items={beach}></BookingTab>
         </TabPanel>
         <TabPanel>
-          <BookingTab items={family} title={'family'}></BookingTab>
+          <BookingTab items={family}></BookingTab>
         </TabPanel>
       </Tabs>
     </div>
