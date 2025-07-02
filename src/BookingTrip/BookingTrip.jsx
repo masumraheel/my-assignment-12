@@ -5,9 +5,12 @@ import "react-tabs/style/react-tabs.css";
 import usePackages from "../hooks/usePackages";
 import BookingTab from "../BookingTab/BookingTab";
 import { useState } from "react";
+import { useParams } from "react-router-dom";
 
 const BookingTrip = () => {
   const [tabIndex, setTabIndex] = useState(0);
+  const {type}=useParams();
+  console.log(type);
   const [tourPackage] = usePackages();
   const adventure = tourPackage.filter((tour) => tour.type === "Adventure");
   const cultural = tourPackage.filter((tour) => tour.type === "Cultural");

@@ -39,7 +39,7 @@ export const router = createBrowserRouter([
             element:<AllTours></AllTours>
         },
         {
-            path:"bookingTrip",
+            path:"bookingTrip/:type",
             element:<BookingTrip></BookingTrip>
         }
       ]
