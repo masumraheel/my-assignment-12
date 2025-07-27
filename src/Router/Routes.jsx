@@ -7,6 +7,7 @@ import Blogs from "../Pages/Blogs";
 import Community from "../Pages/Community";
 import AboutUs from "../Pages/AboutUs";
 import BookingTrip from "../BookingTrip/BookingTrip";
+import Login from "../Pages/Login/Login";
 
 
 export const router = createBrowserRouter([
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
         {
             path:"bookingTrip/:type",
             element:<BookingTrip></BookingTrip>
+        },
+        {
+            path:"logIn",
+            element:<Login></Login>
         }
       ]
     },
