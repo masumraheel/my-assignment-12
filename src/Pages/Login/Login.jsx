@@ -33,7 +33,7 @@ const Login = () => {
           </div>
         </div>
 
-        <div className="flex items-center w-full max-w-md px-6 mx-auto lg:w-2/6">
+        <div className="flex items-center w-full max-w-md px-6 mx-auto lg:w-3/6">
           <div className="flex-1">
             <div className="text-center">
               <div className="flex justify-center mx-auto">
