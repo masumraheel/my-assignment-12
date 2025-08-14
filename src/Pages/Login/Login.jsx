@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import {
   loadCaptchaEnginge,
@@ -22,7 +22,7 @@ const Login = () => {
   const handleValidateCaptcha = () => {
     const user_captcha_value = captchaRef.current.value;
     if (validateCaptcha(user_captcha_value)) {
-    
+      setDisabled(false);
     }
   };
   return (
@@ -130,7 +130,7 @@ const Login = () => {
                   />
                   <button
                     onClick={handleValidateCaptcha}
-                    className="btn btn-xs mt-2 btn-success"
+                    className="btn btn-xs mt-2 btn-outline bg-zinc-950 text-white"
                   >
                     Validate
                   </button>
@@ -139,7 +139,7 @@ const Login = () => {
                 <div className="mt-6">
                   <input
                     disabled={disabled}
-                    className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:bg-blue-400 focus:ring focus:ring-blue-300 focus:ring-opacity-50"
+                    className="btn btn-success w-full px-4 py-2 tracking-wide text-white rounded-lg"
                     type="submit"
                     value="Login"
                     name="Login"
