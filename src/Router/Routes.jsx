@@ -8,6 +8,7 @@ import Community from "../Pages/Community";
 import AboutUs from "../Pages/AboutUs";
 import BookingTrip from "../BookingTrip/BookingTrip";
 import Login from "../Pages/Login/Login";
+import Register from "../Pages/Register/Register";
 
 
 export const router = createBrowserRouter([
@@ -46,6 +47,10 @@ export const router = createBrowserRouter([
         {
             path:"logIn",
             element:<Login></Login>
+        },
+        {
+            path:"register",
+            element:<Register></Register>
         }
       ]
     },
