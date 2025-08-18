@@ -26,7 +26,7 @@ const Login = () => {
     }
   };
   return (
-    <div className="bg-white dark:bg-gray-900">
+    <div className="bg-white dark:bg-gray-900 p-4">
       <div className="flex justify-center h-screen">
         <div
           className="hidden bg-cover lg:block lg:w-1/2"
