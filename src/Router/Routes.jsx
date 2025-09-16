@@ -8,7 +8,8 @@ import Community from "../Pages/Community";
 import AboutUs from "../Pages/AboutUs";
 import BookingTrip from "../BookingTrip/BookingTrip";
 import Login from "../Pages/Login/Login";
-import Register from "../Pages/Register/Register";
+import Register from "../Pages/SignUp/SignUp";
+import SignUp from "../Pages/SignUp/SignUp";
 
 
 export const router = createBrowserRouter([
@@ -49,8 +50,8 @@ export const router = createBrowserRouter([
             element:<Login></Login>
         },
         {
-            path:"register",
-            element:<Register></Register>
+            path:"signUp",
+            element:<SignUp></SignUp>
         }
       ]
     },
