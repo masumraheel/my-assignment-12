@@ -1,13 +1,14 @@
-import React from "react";
+import { useForm } from "react-hook-form";
 
 const SignUp = () => {
-  const handleLogin = (event) => {
-    event.preventDefault();
-    const form = event.target;
-    const email = form.email.value;
-    const password = form.password.value;
-    console.log(email, password);
-  };
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (data) => console.log(data);
+
   return (
     <div className="bg-white dark:bg-gray-900 p-4">
       <div className="flex justify-center h-screen">
@@ -53,7 +54,7 @@ const SignUp = () => {
             </div>
 
             <div className="mt-8">
-              <form onSubmit={handleLogin}>
+              <form onSubmit={handleSubmit(onSubmit)}>
                 <div>
                   <label
                     for="name"
@@ -62,12 +63,16 @@ const SignUp = () => {
                     Name
                   </label>
                   <input
+                    {...register("name")}
                     type="text"
                     name="name"
                     id="name"
                     placeholder="Enter Your Name"
                     className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   />
+                  {errors.name?.type === "required" && (
+                    <p role="alert">First name is required</p>
+                  )}
                 </div>
                 <div>
                   <label
@@ -77,12 +82,14 @@ const SignUp = () => {
                     Email Address
                   </label>
                   <input
+                    {...register("email")}
                     type="email"
                     name="email"
                     id="email"
-                    placeholder="example@example.com"
+                    placeholder="Enter Your Mail"
                     className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   />
+                  {errors.mail && <p role="alert">{errors.mail.message}</p>}
                 </div>
 
                 <div className="mt-6">
@@ -96,14 +103,17 @@ const SignUp = () => {
                   </div>
 
                   <input
+                    {...register("password")}
                     type="password"
                     name="password"
                     id="password"
                     placeholder="Your Password"
                     className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   />
+                  {errors.password && (
+                    <p role="alert">{errors.password.message}</p>
+                  )}
                 </div>
-
                 <div className="mt-6">
                   <input
                     className="btn btn-success w-full px-4 py-2 tracking-wide text-white rounded-lg"
